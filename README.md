@@ -6,6 +6,8 @@
 * [State](https://github.com/NikiforovAll/design-patterns-playground/tree/master/State)
 * [Mediator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Mediator)
 * [Observer](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Observer)
+* [Memento](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Memento)
+
 
 ## Creational Patterns 
 
