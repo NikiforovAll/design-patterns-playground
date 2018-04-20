@@ -8,7 +8,7 @@
 * [Observer](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Observer)
 * [Memento](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Memento)
 * [Iterator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Iterator)
-
+* [Interpreter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Interpreter)
 ## Creational Patterns 
 
 ## Structural Patterns
