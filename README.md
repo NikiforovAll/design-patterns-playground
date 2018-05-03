@@ -9,6 +9,8 @@
 * [Memento](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Memento)
 * [Iterator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Iterator)
 * [Interpreter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Interpreter)
+* [Command](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Command)
+
 ## Creational Patterns 
 
 ## Structural Patterns
