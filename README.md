@@ -10,6 +10,8 @@
 * [Iterator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Iterator)
 * [Interpreter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Interpreter)
 * [Command](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Command)
+* [ChainOfResponsibility](https://github.com/NikiforovAll/design-patterns-playground/tree/master/ChainOfResponsibility)
+
 
 ## Creational Patterns 
 
