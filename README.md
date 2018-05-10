@@ -16,6 +16,7 @@
 ## Creational Patterns 
 
 ## Structural Patterns
+* [Adapter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Adapter)
 
 
 
