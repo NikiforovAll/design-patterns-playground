@@ -1,0 +1,6 @@
+language: csharp
+script:
+  - ./build.sh
+cache:
+  directories:
+    - tools
