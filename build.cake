@@ -42,7 +42,7 @@ var testDir = "./**/test/**/*.csproj";
     .IsDependentOn("Restore")
     .Does(() =>
     {
-        var projects = GetFiles(srcDir);
+        var projects = GetFiles("./**/*.csproj");
         foreach(var project in projects)
         {
             DotNetCoreBuild(

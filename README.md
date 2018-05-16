@@ -18,7 +18,4 @@ Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playg
 
 ## Structural Patterns
 * [Adapter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Adapter)
-
-
-
-
+* [Bridge](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Bridge)
