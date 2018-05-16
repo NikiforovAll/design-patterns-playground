@@ -39,7 +39,7 @@ var srcDir = "./**/src/**/*.csproj";
 var testDir = "./**/test/**/*.csproj";
 
  Task("Build")
-    // .IsDependentOn("Restore")
+    .IsDependentOn("Restore")
     .Does(() =>
     {
         var projects = GetFiles(srcDir);

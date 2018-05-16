@@ -1,4 +1,5 @@
-# Reference
+# Reference 
+Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playground.svg?branch=master)](https://travis-ci.org/NikiforovAll/design-patterns-playground)
 ## Behavioral Patterns
 * [Visitor](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Visitor)
 * [Strategy](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Strategy)
