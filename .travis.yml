@@ -1,23 +1,24 @@
-language: csharp
-dist: trusty
-script:
-  - ./build.sh
-# addons: 
-#   apt:
-#     packages:
-#     - gettext
-#     - libcurl4-openssl-dev
-#     - libicu-dev
-#     - libssl-dev
-#     - libunwind8
-#     - zlib1g
-env:
+language: csharp  
+sudo: required  
+dist: trusty  
+env:  
   - CLI_VERSION=latest
+addons:  
+  apt:
+    packages:
+    - gettext
+    - libcurl4-openssl-dev
+    - libicu-dev
+    - libssl-dev
+    - libunwind8
+    - zlib1g
+mono:  
+  - 4.2.3
+os:  
+  - linux
 install:  
-  # - export DOTNET_INSTALL_DIR="$PWD/.dotnetcli"
-  # - export DOTNET_CLI_TELEMETRY_OPTOUT=true
-  # - curl -sSL https://raw.githubusercontent.com/dotnet/cli/master/scripts/obtain/dotnet-install.sh | bash /dev/stdin --version "$CLI_VERSION" --install-dir "$DOTNET_INSTALL_DIR"
-  # - export PATH="$DOTNET_INSTALL_DIR:$PATH" 
-cache:
-  directories:
-    - tools
+  - export DOTNET_INSTALL_DIR="$PWD/.dotnetcli"
+  - curl -sSL https://raw.githubusercontent.com/dotnet/cli/rel/1.0.0/scripts/obtain/dotnet-install.sh | bash /dev/stdin --version "$CLI_VERSION" --install-dir "$DOTNET_INSTALL_DIR"
+  - export PATH="$DOTNET_INSTALL_DIR:$PATH"  
+script:  
+  - ./build.sh

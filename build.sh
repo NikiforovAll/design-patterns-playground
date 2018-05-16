@@ -1,35 +1,4 @@
 #!/usr/bin/env bash
-
-
-INSTALLDIR="cli-tools"
-# export DOTNET_INSTALL_SKIP_PREREQS=1
-# CLI_VERSION=2.1.4
-# DOWNLOADER=$(which curl)
-if [ -d "$INSTALLDIR" ]
-then
-    rm -rf "$INSTALLDIR"
-fi
-curl -s ./dotnet-sdk-latest-linux-x64.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Sdk/release/2.1.4xx/dotnet-sdk-latest-linux-x64.tar.gz 
-tar zxf dotnet-sdk-latest-linux-x64.tar.gz -C $INSTALLDIR/dotnet
-export PATH="$INSTALLDIR/dotnet:$PATH"
-
-return 0;
-# mkdir -p "$INSTALLDIR"
-# echo Downloading the CLI installer.
-# $DOWNLOADER https://dot.net/v1/dotnet-install.sh > "$INSTALLDIR/dotnet-install.sh"
-# chmod +x "$INSTALLDIR/dotnet-install.sh"
-# echo Installing the CLI requested version $CLI_VERSION. Please wait, installation may take a few minutes.
-# "$INSTALLDIR/dotnet-install.sh" --install-dir "$INSTALLDIR" --version $CLI_VERSION
-# if [ $? -ne 0 ]
-# then
-#     echo Download of $CLI_VERSION version of the CLI failed. Exiting now.
-#     exit 0
-# fi
-# echo The CLI has been installed.
-# LOCALDOTNET="$INSTALLDIR/dotnet"
-# export PATH="$LOCALDOTNET:$PATH"
-
-# dotnet --version
 ##########################################################################
 # This is the Cake bootstrapper script for Linux and OS X.
 # This file was downloaded from https://github.com/cake-build/resources
