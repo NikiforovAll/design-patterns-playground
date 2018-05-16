@@ -35,8 +35,8 @@ Task("Restore")
                 null);
         }
     });
-var srcDir = "./**/src/Visitor/**/*.csproj";
-var testDir = "./Visitor/test/**/*.csproj";
+var srcDir = "./**/src/**/*.csproj";
+var testDir = "./**/test/**/*.csproj";
 
  Task("Build")
     // .IsDependentOn("Restore")
@@ -74,26 +74,7 @@ Task("Test")
         }
     });
 
-Task("Pack")
-    .IsDependentOn("Test")
-    .Does(() =>
-    {
-        var revision = buildNumber.ToString("D4");
-        Information("version: " + revision);
-        foreach (var project in GetFiles("./*/src/*.csproj"))
-        {
-            DotNetCorePack(
-                project.GetDirectory().FullPath,
-                new DotNetCorePackSettings()
-                {
-                    Configuration = configuration,
-                    OutputDirectory = artifactsDirectory,
-                    VersionSuffix = revision
-                });
-        }
-    });
-
 Task("Default")
-    .IsDependentOn("Pack");
+    .IsDependentOn("Test");
 
 RunTarget(target);
