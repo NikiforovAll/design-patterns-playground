@@ -1,6 +1,9 @@
-# Reference 
+# Reference
+
 Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playground.svg?branch=master)](https://travis-ci.org/NikiforovAll/design-patterns-playground)
+
 ## Behavioral Patterns
+
 * [Visitor](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Visitor)
 * [Strategy](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Strategy)
 * [Template Method](https://github.com/NikiforovAll/design-patterns-playground/tree/master/TemplateMethod)
@@ -13,9 +16,10 @@ Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playg
 * [Command](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Command)
 * [ChainOfResponsibility](https://github.com/NikiforovAll/design-patterns-playground/tree/master/ChainOfResponsibility)
 
-
-## Creational Patterns 
+## Creational Patterns
 
 ## Structural Patterns
+
 * [Adapter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Adapter)
 * [Bridge](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Bridge)
+* [Composite](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Composite)
