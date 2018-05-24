@@ -23,3 +23,4 @@ Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playg
 * [Adapter](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Adapter)
 * [Bridge](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Bridge)
 * [Composite](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Composite)
+* [Decorator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Decorator)
