@@ -7,7 +7,7 @@ namespace Decorator
         public override void Operation()
         {
             base.Operation();
-            this.State = $"{base.State}.";
+            this.State = $"{base._component.State}.";
         }
     }
 }

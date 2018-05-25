@@ -11,6 +11,11 @@ namespace Decorator
             this._component = component;
         }
 
+        public Component GetComponent()
+        {
+            return _component;
+        }
+        
         public override void Operation()
         {
             _component?.Operation();
