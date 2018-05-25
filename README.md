@@ -25,3 +25,5 @@ Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playg
 * [Composite](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Composite)
 * [Decorator](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Decorator)
 * [Facade](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Facade)
+* [Flyweight](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Flyweight)
+* [Proxy](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Proxy)
