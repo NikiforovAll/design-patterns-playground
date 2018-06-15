@@ -19,6 +19,7 @@ Build: [![Build Status](https://travis-ci.org/NikiforovAll/design-patterns-playg
 ## Creational Patterns
 
 * [AbstractFactory](https://github.com/NikiforovAll/design-patterns-playground/tree/master/AbstractFactory)
+* [Builder](https://github.com/NikiforovAll/design-patterns-playground/tree/master/Builder)
 
 ## Structural Patterns
 
