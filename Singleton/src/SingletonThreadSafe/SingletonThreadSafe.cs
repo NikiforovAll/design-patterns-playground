@@ -87,7 +87,7 @@ namespace SingletonThreadSafe
         private static readonly Lazy<Singleton3> lazy =
             new Lazy<Singleton3>(() => new Singleton3());
 
-        public static Singleton Instance { get { return lazy.Value; } }
+        public static Singleton3 Instance { get { return lazy.Value; } }
 
         private Singleton3()
         {
